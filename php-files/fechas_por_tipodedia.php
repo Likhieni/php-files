@@ -37,7 +37,10 @@ function ordenar_fechas($range, $tipodia){
     return $new_range;
 }
 
-//tipo dias 1, 2, 3
-print_r(fechas('2018-07-16','2018-07-31', 3));
+//tipo dias 
+//1- Lunes- Viernes, 
+//2- Sabados, 
+//3- Domingos
+print_r(fechas('2018-07-16','2018-07-31', 1));
 
 ?>
